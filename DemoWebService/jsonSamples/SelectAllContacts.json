@@ -1,0 +1,154 @@
+{
+  "rootSchemaName": "Contact",
+  "operationType": 0,
+  "filters": {
+    "items": {
+      "4ee91a63-99de-4e96-b2e2-55e32abeb47e": {
+        "items": {},
+        "logicalOperation": 0,
+        "isEnabled": true,
+        "filterType": 6
+      }
+    },
+    "logicalOperation": 0,
+    "isEnabled": true,
+    "filterType": 6
+  },
+  "columns": {
+    "items": {
+      "Id": {
+        "caption": "",
+        "orderDirection": 0,
+        "orderPosition": -1,
+        "isVisible": true,
+        "expression": {
+          "expressionType": 0,
+          "columnPath": "Id"
+        }
+      },
+      "Name": {
+        "caption": "",
+        "orderDirection": 1,
+        "orderPosition": 1,
+        "isVisible": true,
+        "expression": {
+          "expressionType": 0,
+          "columnPath": "Name"
+        }
+      },
+      "Photo": {
+        "caption": "",
+        "orderDirection": 0,
+        "orderPosition": -1,
+        "isVisible": true,
+        "expression": {
+          "expressionType": 0,
+          "columnPath": "Photo"
+        }
+      },
+      "Job": {
+        "caption": "Job title",
+        "orderDirection": 0,
+        "orderPosition": -1,
+        "isVisible": true,
+        "expression": {
+          "expressionType": 0,
+          "columnPath": "Job"
+        }
+      },
+      "Phone": {
+        "caption": "Business phone",
+        "orderDirection": 0,
+        "orderPosition": -1,
+        "isVisible": true,
+        "expression": {
+          "expressionType": 0,
+          "columnPath": "Phone"
+        }
+      },
+      "Account": {
+        "caption": "Account",
+        "orderDirection": 0,
+        "orderPosition": -1,
+        "isVisible": true,
+        "expression": {
+          "expressionType": 0,
+          "columnPath": "Account"
+        }
+      },
+      "Email": {
+        "caption": "Email",
+        "orderDirection": 0,
+        "orderPosition": -1,
+        "isVisible": true,
+        "expression": {
+          "expressionType": 0,
+          "columnPath": "Email"
+        }
+      },
+      "MobilePhone": {
+        "caption": "Mobile phone",
+        "orderDirection": 0,
+        "orderPosition": -1,
+        "isVisible": true,
+        "expression": {
+          "expressionType": 0,
+          "columnPath": "MobilePhone"
+        }
+      },
+      "EntryPointsCount": {
+        "caption": "",
+        "orderDirection": 0,
+        "orderPosition": -1,
+        "isVisible": true,
+        "expression": {
+          "expressionType": 3,
+          "aggregationType": 1,
+          "columnPath": "[EntryPoint:EntityId].Id",
+          "subFilters": {
+            "items": {
+              "c1960d70-562b-430e-a6e0-a858d1e7a4ad": {
+                "filterType": 1,
+                "comparisonType": 3,
+                "isEnabled": true,
+                "trimDateTimeParameterToDate": false,
+                "leftExpression": {
+                  "expressionType": 0,
+                  "columnPath": "IsActive"
+                },
+                "rightExpression": {
+                  "expressionType": 2,
+                  "parameter": {
+                    "dataValueType": 1,
+                    "value": true
+                  }
+                }
+              }
+            },
+            "logicalOperation": 0,
+            "isEnabled": true,
+            "filterType": 6
+          }
+        }
+      }
+    }
+  },
+  "isDistinct": false,
+  "rowCount": 15,
+  "rowsOffset": 0,
+  "isPageable": true,
+  "allColumns": false,
+  "useLocalization": true,
+  "useRecordDeactivation": false,
+  "serverESQCacheParameters": {
+    "cacheLevel": 0,
+    "cacheGroup": "",
+    "cacheItemName": ""
+  },
+  "queryOptimize": false,
+  "useMetrics": false,
+  "querySource": 0,
+  "ignoreDisplayValues": false,
+  "conditionalValues": null,
+  "isHierarchical": false
+}

@@ -1,0 +1,41 @@
+{
+  "rootSchemaName": "Contact",
+  "operationType": 2,
+  "filters": {
+    "items": {
+      "primaryColumnFilter": {
+        "filterType": 1,
+        "comparisonType": 3,
+        "isEnabled": true,
+        "trimDateTimeParameterToDate": false,
+        "leftExpression": {
+          "expressionType": 1,
+          "functionType": 1,
+          "macrosType": 34
+        },
+        "rightExpression": {
+          "expressionType": 2,
+          "parameter": {
+            "dataValueType": 0,
+            "value": "4ff1b9e6-f121-4bce-bea3-8e99203d55c4"
+          }
+        }
+      }
+    },
+    "logicalOperation": 0,
+    "isEnabled": true,
+    "filterType": 6
+  },
+  "columnValues": {
+    "items": {
+      "MobilePhone": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 1,
+          "value": "4165438857"
+        }
+      }
+    }
+  },
+  "isForceUpdate": false
+}

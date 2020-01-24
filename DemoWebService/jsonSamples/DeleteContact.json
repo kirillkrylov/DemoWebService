@@ -1,0 +1,29 @@
+{
+  "rootSchemaName": "Contact",
+  "operationType": 3,
+  "filters": {
+    "items": {
+      "primaryColumnFilter": {
+        "filterType": 1,
+        "comparisonType": 3,
+        "isEnabled": true,
+        "trimDateTimeParameterToDate": false,
+        "leftExpression": {
+          "expressionType": 1,
+          "functionType": 1,
+          "macrosType": 34
+        },
+        "rightExpression": {
+          "expressionType": 2,
+          "parameter": {
+            "dataValueType": 0,
+            "value": "dd3b9688-96b5-4b68-9ac2-fc23b25b0f07"
+          }
+        }
+      }
+    },
+    "logicalOperation": 0,
+    "isEnabled": true,
+    "filterType": 6
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "rootSchemaName": "Contact",
+  "operationType": 1,
+  "columnValues": {
+    "items": {
+      "Owner": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 10,
+          "value": "410006e1-ca4e-4502-a9ec-e54d922d2c00"
+        }
+      },
+      "CreatedBy": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 10,
+          "value": "410006e1-ca4e-4502-a9ec-e54d922d2c00"
+        }
+      },
+      "ModifiedBy": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 10,
+          "value": "410006e1-ca4e-4502-a9ec-e54d922d2c00"
+        }
+      },
+      "DoNotUseEmail": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 12,
+          "value": false
+        }
+      },
+      "DoNotUseCall": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 12,
+          "value": false
+        }
+      },
+      "DoNotUseFax": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 12,
+          "value": false
+        }
+      },
+      "DoNotUseSms": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 12,
+          "value": false
+        }
+      },
+      "DoNotUseMail": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 12,
+          "value": false
+        }
+      },
+      "Confirmed": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 12,
+          "value": true
+        }
+      },
+      "Completeness": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 4,
+          "value": 0
+        }
+      },
+      "Language": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 10,
+          "value": "6ebc31fa-ee6c-48e9-81bf-8003ac03b019"
+        }
+      },
+      "Name": {
+        "expressionType": 2,
+        "parameter": {
+          "dataValueType": 1,
+          "value": "Created with DataService"
+        }
+      }
+    }
+  }
+}
